@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: medium;
+
+}
+
+.simple{
+display: flex;
+justify-content: space-between;
+}
+
+/* .container1{
+    display: flex;
+    flex-direction: column;
+} */
+
+
+
+/* .navbar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+.bar1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bar1 > div {
+  padding: 5px 20px;
+  display: flex;
+}
+.subbar{
+    align-items: center;
+}
+.subbar > div {
+padding:0 2px;
+}
+.bar2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+}
+.bar2 > div {
+  padding: 5px 10px;
+}
+.subbar1 {
+  display: flex;
+  justify-content: space-between;
+}
+.subbar1 > div {
+  padding: 5px 5px;
+}
+#highlight {
+  background-color: red;
+  color: white;
+  margin: 0 px;
+  padding: 5px;
+  font-weight: 700;
+  border-radius: 5px;
+  font-size: small;
+}
+
+.navbar2{
+  display: flex;
+  justify-content: space-around;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* .bar3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bar3 > div{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.bar4{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+#box1{
+    margin-left: 20px;
+    margin-top: 2px;
+    display: flex;
+    padding: 7px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(241, 244, 246);
+}
+#box1 > div {
+    padding: 0 30px 0 30px;
+    align-items: center;
+}
+#box2{
+    padding: 10px;
+}
+
+
+#myInput{
+    border: 0 ;
+    background-color: rgb(241, 244, 246);
+    width: 500px;
+    padding: 8px 15px;
+    margin-right: 5px;
+    margin-top: 2px;
+    font-size: large;
+}
+
+.bar4 > div{
+    padding: 0 5px;
+}
+#button{
+    border: 0;
+    width: 150px;
+    height: 50px;
+    font-size: large;
+    background-color: rgb(241,77,19);
+    color: aliceblue;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+.navbar3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.dropdown-menu ul{
+  list-style: none;
+  padding: 0;
+
+}
+
+.dropdown-menu{
+  display: flex;
+}
+
+.flex{
+  display: flex;
+}
+.dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: black;
+}
+.dropdown-menu {
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.navbar4{
+  text-align: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-block: 25px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+#grandfather{
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.navbar5{
+  width: 100%;
+ box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.colhover:hover{
+  padding: 12px;
+  border: 2px solid  rgb(233, 217, 217);
+}
+
+
+
+
+
+
+
+.content1{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 50px; 
+}
+.content1 > p {
+  font-size: 1em;
+  color: rgb(102, 102, 102);
+}
+.content2-1 {
+  text-align: center;
+  padding: 30px;
+}
+
+.content2{
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+ 
+}
+
+.content2-2{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 30px;
+}
+.content3{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+}
+.content3 h4{
+  padding: 5px;
+}
+.content3 input{
+  padding: 0px 10px;
+  margin: 10px;
+  width: 300px;
+}
+
+
+.full-footer {
+  background-color: rgb(255, 252, 248);
+  
+  width: 100%;
+
+}
+
+.top-footer h3 {
+  color: black;
+}
+
+.top-footer a {
+  color:  rgb(102, 102, 102);
+  text-decoration: none;
+}
+
+.top-footer a:hover {
+  color: blue;
+}
+
+.bottom-footer {
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottom-footer p,
+i {
+  margin: 0px;
+  color: #ffffff;
+}
+.appimg img{
+  background-color: black;
+  margin: 5px;
+}
+.connecticons i{
+  color: black;
+}
+
+
+.xyz{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bcd{
+  display: flex;
+  justify-content: space-between;
+}
