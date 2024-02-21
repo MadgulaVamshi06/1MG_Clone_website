@@ -10,138 +10,74 @@
     <link rel="stylesheet" href="./signin.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"> -->
 
 </head>
 
 <body>
     <div class="container1">
         <!--navbar 1 starts -->
-
-        <div class="navbar1">
-            <div class="bar1">
-                <div> <a href="index.html"><img src="https://www.1mg.com/images/tata_1mg_logo.svg"
-                            alt="Clickable Image"></a></div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color: red;">MEDCINIES</a></p>
+        <nav>
+            <div class="outer">
+                <div class="inner1">
+                  <div><a href='/'><img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="Not found"></a></div>
+                   <div>
+                    <ul>
+                        <li><a href="./products.html">Medicines</a></li>
+                        <li><a href="#">Lab Tests</a></li>
+                        <li><a href='#'>Consult Doctors</a></li>
+                        <li><a href="#">covid 19</a></li>
+                        <li><a href="#">Ayurveda</a></li>
+                        <li><a href="#">Care Plan</a></li>
+                    </ul>
+                   </div>
                 </div>
-                <div class="subbar">
+                <div class="inner2">
                     <div>
-                        <p><a href="products.html" style="text-decoration: none; color:black;">LAB TESTS</a></p>
+                        <p id="login_text_js"><a href="./login.html" class="before_login_style">Login</a></p>
+                        <p id="login_text_js1">|</p>
+                        <p id="login_text_js2"><a class='before_login_style' href='./Sign.html'>Signup</a></p>
+                        <P></P>
+                        <P></P>
+                        <p>Offers</p>
+                    </div>
+                    
+                    <div class="cartLogo"> 
+                        <img src="./shopping cart.png" alt="not found" id="red-cart"/></a>
+                        <div id="cartItembox" onclick="di()">0</div>
                     </div>
                     <div>
-                        <p id="highlight">SAFE</p>
+                        <p>Need Help ?</p>
                     </div>
                 </div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">CONSULT DOCTORS</a></p>
-                </div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">CANCER CARE</a></p>
-                </div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">AYURVEDA</a></p>
-                </div>
-                <div class="subbar">
-                    <div>
-                        <p><a href="products.html" style="text-decoration: none; color:black;">CAREPLAN</a></p>
-                    </div>
-                    <div>
-                        <p id="highlight">SAVE MORE</p>
-                    </div>
-
-                </div>
-                <div class="bar2">
-                    <div class="subbar1">
-                        <div>
-                            <p><a href="login.html" style="text-decoration: none; color: black;">Login</a></p>
-                        </div>
-                        <div>
-                            <p>|</p>
-                        </div>
-                        <div>
-                            <p><a href="Sign.html" style="text-decoration: none; color: black;">Sign Up</a></p>
-                        </div>
-
-
-                    </div>
-                    <div class="subbar2">
-                        <!-- <p>Offers</p> -->
-                    </div>
-                    <div class="subbar3">
-                        <a href="cart_page.html">
-                            <img src="./shopping cart.png" alt="">
-                        </a>
-                    </div>
-                    <div class="subbar4">
-                        <p><a href="help.html" style="text-decoration: none; color: black;">Need Help?</a></p>
-                    </div>
-                    <div class="subbar5">
-                        <p id="user_name"></p>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        <!-- navbar1 ends -->
-
-
-
-
-
-
-        <!-- navbar 2 starts -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div id="box1">
-                <div><img id="loc_img" src="./location.png" alt="">
-                    <p id="location" style="display: inline;">HYDERABAD</p>
-                </div>
-                <div><img src="./Gps.png" alt=""></div>
-
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit" style="width: 200px;">Search</button>
-                </form>
-                
             </div>
             
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-
-                </ul>
-                 <li class="nav-item">
-                    <p>QUICK BUY! Get 15% off on medicines*</p>
-                </li>
-
-                <li>
-                    <button id="button"> <a style="color: wheat;" href="./products.html">Quick order</a> </button>
-                </li> 
+        </nav>
+         <!-- navbar 1 ends -->
+         
+        <!-- navbar 2 starts -->
+        <section>
+            <div class="searchOuter">
+                <div class="searchInner1">
+                    <i class="fa-solid fa-location-dot"><img src="./location.png" alt=""></i>
+                    <input type="text"  placeholder="Enter Your City..."/>
+                    <i class="fa-solid fa-location-crosshairs" id="cross"><img src="./Gps.png" alt=""></i>
+                    <input type="text" placeholder="Search for Medicines and Health Products "/>
+                    <i class="fa-solid fa-magnifying-glass"><img src="./search tool.png" alt=""></i>
+                </div>
+                <div class="searchInner2">
+                    <p><i class="fa-solid fa-bolt"></i></p>
+                    <p class="quic">QUICK BUY! Get 25% off on medicines*
+                    </p>
+                    <button><b>Quick Order</b></button>
+                </div>
             </div>
-    </div>
-    </nav>
+        </section>
+          <!-- navbar 2 ends -->
 
 
-
-    <!-- navbar 2 ends -->
-
-
-    <!-- navbar3 starts -->
+    <!-- navbar3 starts  -->
     <div class="navbar3">
-
-        <div class="dropdown item1">
-            <a class="btn dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Health Resources Center
-            </a>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="./products.html">All Diseases</a></li>
-                <li><a class="dropdown-item" href="./products.html">All Medicine </a></li>
-                <li><a class="dropdown-item" href="./products.html">Medicines by Therapeutic Class</a></li>
-            </ul>
-        </div>
-
-
         <div class="dropdown item2">
             <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
                 aria-expanded="false">
@@ -776,9 +712,9 @@
 
 
     </div>
-    <!-- navbar3 ends -->
+    <!-- navbar3 ends
 
-    <!-- carousel slide starts -->
+    < carousel slide starts -->
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -860,8 +796,7 @@
             </div>
         </div>
     </div>
-    <!-- navbar5 ends -->
-
+    <!-- navbar5 ends -->   
     <!-- comp_content start -->
     <div class="content1">
         <h4>Stay Healthy with Tata 1mg: Your Favourite Online Pharmacy and Healthcare Platform</h4>
