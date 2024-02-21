@@ -19,849 +19,712 @@
 </head>
 
 <body>
-
-    <div class="container-fluid">
-        <div class="navbar1">
-            <div class="bar1">
-                <div> <a href="index.html"><img src="https://www.1mg.com/images/tata_1mg_logo.svg"
-                            alt="Clickable Image"></a></div>
+     <!-- navbar 1 starts -->
+    <nav>
+        <div class="outer">
+            <div class="inner1">
+              <div><a href='/'><img src="https://www.1mg.com/images/tata_1mg_logo.svg" alt="Not found"></a></div>
+               <div>
+                <ul>
+                    <li><a href="./products.html">Medicines</a></li>
+                    <li><a href="#">Lab Tests</a></li>
+                    <li><a href='#'>Consult Doctors</a></li>
+                    <li><a href="#">covid 19</a></li>
+                    <li><a href="#">Ayurveda</a></li>
+                    <li><a href="#">Care Plan</a></li>
+                </ul>
+               </div>
+            </div>
+            <div class="inner2">
                 <div>
-                    <p><a href="products.html" style="text-decoration: none; color: red;">MEDCINIES</a></p>
+                    <p id="login_text_js"><a href="./login.html" class="before_login_style">Login</a></p>
+                    <p id="login_text_js1">|</p>
+                    <p id="login_text_js2"><a class='before_login_style' href='./Sign.html'>Signup</a></p>
+                    <P></P>
+                    <P></P>
+                    <p>Offers</p>
                 </div>
-                <div class="subbar">
-                    <div>
-                        <p><a href="products.html" style="text-decoration: none; color:black;">LAB TESTS</a></p>
-                    </div>
-                    <div>
-                        <p id="highlight">SAFE</p>
-                    </div>
-                </div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">CONSULT DOCTORS</a></p>
-                </div>
-                <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">CANCER CARE</a></p>
+                
+                <div class="cartLogo"> 
+                    <img src="https://onemg.gumlet.io/cart-icon-rebrand_vp4k0f.svg" alt="not found" id="red-cart" onclick="di()"/></a>
+                    <div id="cartItembox" onclick="di()">0</div>
                 </div>
                 <div>
-                    <p><a href="products.html" style="text-decoration: none; color:black;">AYURVEDA</a></p>
-                </div>
-                <div class="subbar">
-                    <div>
-                        <p><a href="products.html" style="text-decoration: none; color:black;">CAREPLAN</a></p>
-                    </div>
-                    <div>
-                        <p id="highlight">SAVE MORE</p>
-                    </div </div>
-
-                </div>
-                <div class="bar2">
-                    <div class="subbar1">
-                        <div>
-                            <p><a href="login.html" style="text-decoration: none; color: black;">Login</a></p>
-                        </div>
-                        <div>
-                            <p>|</p>
-                        </div>
-                        <div>
-                            <p><a href="Sign.html" style="text-decoration: none; color: black;">Sign Up</a></p>
-                        </div>
-
-
-                    </div>
-                    <div class="subbar2">
-                        <p>Offers</p>
-                    </div>
-                    <div class="subbar3">
-                        <a href="cart_page.html">
-                            <img src="./shopping cart.png" alt="">
-                        </a>
-                    </div>
-                    <div class="subbar4">
-                        <p><a href="help.html" style="text-decoration: none; color: black;">Need Help?</a></p>
-                    </div>
-                    <div class="subbar5">
-                       
-                            <p id="user_name"></p>
-                       
-                    </div>
+                    <p>Need Help ?</p>
                 </div>
             </div>
         </div>
-
-        <!-- navbar2 starts -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div id="box1">
-                <div><img id="loc_img" src="./location.png" alt="">
-                    <p id="location" style="display: inline;">HYDERABAD</p>
-                </div>
-                <div><img src="./Gps.png" alt=""></div>
-            </div>
-            <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit" style="width: 200px;">Search</button>
-            </form>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                
-                
-                </ul>
-
-                <li class="nav-item">
-                    <p>QUICK BUY! Get 15% off on medicines*</p>
-                </li>
-
-                <li>
-                    <button id="button"> <a style="color: wheat;" href="./products.html">Quick order</a> </button>
-                </li>
-            </div>
-    </div>
+        
     </nav>
-            <!-- navbar 2 ends -->
+ <!-- navbar 1 ends -->
 
-        <div class="navbar3">
-            <div class="dropdown item1">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Health Resources Center
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">All Diseases</a></li>
-                    <li><a class="dropdown-item" href="#">All Medicine </a></li>
-                    <li><a class="dropdown-item" href="#">Medicines by Therapeutic Class</a></li>
-                </ul>
+    <!-- navbar2 starts -->
+    <section>
+        <div class="searchOuter">
+            <div class="searchInner1">
+                <i class="fa-solid fa-location-dot"><img src="./location.png" alt=""></i>
+                <input type="text"  placeholder="Enter Your City..."/>
+                <i class="fa-solid fa-location-crosshairs" id="cross"><img src="./Gps.png" alt=""></i>
+                <input type="text" placeholder="Search for Medicines and Health Products "/>
+                <i class="fa-solid fa-magnifying-glass"><img src="./search tool.png" alt=""></i>
             </div>
+            <div class="searchInner2">
+                <p><i class="fa-solid fa-bolt"></i></p>
+                <p class="quic">QUICK BUY! Get 25% off on medicines*
+                </p>
+                <button><b>Quick Order</b></button>
+            </div>
+        </div>
+    </section>
+    <!-- navbar 2 ends -->
 
+    <!-- navbar3 starts  -->
+    <div class="navbar3">
+        <div class="dropdown item2">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Vitamins & Nutrition
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="./products.html">Vitamins & Supplements</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Multivitamins</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Vitamin D3</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Vitamin C</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Minerals</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Calcium</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Vitamin B12 & B Complex</a></li>
+                            <li><a class="dropdown-item" href="./products.html">Other Vitamins</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="products.html">Nutritional Drinks</a></li>
+                            <li><a class="dropdown-item" href="products.html">Adult Daily Nutrition</a></li>
+                            <li><a class="dropdown-item" href="products.html">Kids Nutrition (2-15 Yrs)</a></li>
+                            <li><a class="dropdown-item" href="products.html">Womens Nutrition</a></li>
 
-            <div class="dropdown item2">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Vitamins & Nutrition
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Vitamins & Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Multivitamins</a></li>
-                                <li><a class="dropdown-item" href="#">Vitamin D3</a></li>
-                                <li><a class="dropdown-item" href="#">Vitamin C</a></li>
-                                <li><a class="dropdown-item" href="#">Minerals</a></li>
-                                <li><a class="dropdown-item" href="#">Calcium</a></li>
-                                <li><a class="dropdown-item" href="#">Vitamin B12 & B Complex</a></li>
-                                <li><a class="dropdown-item" href="#">Other Vitamins</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Nutritional Drinks</a></li>
-                                <li><a class="dropdown-item" href="#">Adult Daily Nutrition</a></li>
-                                <li><a class="dropdown-item" href="#">Kids Nutrition (2-15 Yrs)</a></li>
-                                <li><a class="dropdown-item" href="#">Womens Nutrition</a></li>
+                        </ul>
 
-                            </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="products.html">Global Supplements</a></li>
+                            <li><a class="dropdown-item" href="products.html">Now Foods</a></li>
+                            <li><a class="dropdown-item" href="products.html">Solgar</a></li>
+                            <li><a class="dropdown-item" href="products.html">Nordic naturals</a></li>
+                        </ul>
+                    </div>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Nutritional Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Dr Morepen</a></li>
+                            <li><a class="dropdown-item" href="#">Power Gummies</a></li>
+                            <li><a class="dropdown-item" href="#">Tata 1mg Vitamins</a></li>
+                            <li><a class="dropdown-item" href="#">HealthKart</a></li>
+                            <li><a class="dropdown-item" href="#">Carbamide forte</a></li>
+                            <li><a class="dropdown-item" href="#">Swisse</a></li>
+                            <li><a class="dropdown-item" href="#">Zingavita</a></li>
+                        </ul>
 
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Global Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Now Foods</a></li>
-                                <li><a class="dropdown-item" href="#">Solgar</a></li>
-                                <li><a class="dropdown-item" href="#">Nordic naturals</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Nutritional Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Dr Morepen</a></li>
-                                <li><a class="dropdown-item" href="#">Power Gummies</a></li>
-                                <li><a class="dropdown-item" href="#">Tata 1mg Vitamins</a></li>
-                                <li><a class="dropdown-item" href="#">HealthKart</a></li>
-                                <li><a class="dropdown-item" href="#">Carbamide forte</a></li>
-                                <li><a class="dropdown-item" href="#">Swisse</a></li>
-                                <li><a class="dropdown-item" href="#">Zingavita</a></li>
-                            </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Protein Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Whey Protein</a></li>
+                            <li><a class="dropdown-item" href="#">Amino Acids</a></li>
+                            <li><a class="dropdown-item" href="#">Mass Gainers</a></li>
+                            <li><a class="dropdown-item" href="#">Workout Essential</a></li>
+                            <li><a class="dropdown-item" href="#">Fat Bruners</a></li>
+                        </ul>
+                    </div>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Healthy Snacks & Drinks</a></li>
+                            <li><a class="dropdown-item" href="#">Green Tea & Herbal Tea</a></li>
+                            <li><a class="dropdown-item" href="#">Energy Foods</a></li>
+                            <li><a class="dropdown-item" href="#">Rehydration Beverages</a></li>
+                            <li><a class="dropdown-item" href="#">Apple Cider Vinegar</a></li>
+                            <li><a class="dropdown-item" href="#">Nuts & Cereals</a></li>
+                            <li><a class="dropdown-item" href="#">Chyawanprasha</a></li>
+                        </ul>
 
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Protein Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Whey Protein</a></li>
-                                <li><a class="dropdown-item" href="#">Amino Acids</a></li>
-                                <li><a class="dropdown-item" href="#">Mass Gainers</a></li>
-                                <li><a class="dropdown-item" href="#">Workout Essential</a></li>
-                                <li><a class="dropdown-item" href="#">Fat Bruners</a></li>
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Healthy Snacks & Drinks</a></li>
-                                <li><a class="dropdown-item" href="#">Green Tea & Herbal Tea</a></li>
-                                <li><a class="dropdown-item" href="#">Energy Foods</a></li>
-                                <li><a class="dropdown-item" href="#">Rehydration Beverages</a></li>
-                                <li><a class="dropdown-item" href="#">Apple Cider Vinegar</a></li>
-                                <li><a class="dropdown-item" href="#">Nuts & Cereals</a></li>
-                                <li><a class="dropdown-item" href="#">Chyawanprasha</a></li>
-                            </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Omega & Fish Oil</a></li>
+                            <li><a class="dropdown-item" href="#">Fish Oil
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Cod Liver Oil</a></li>
+                            <li><a class="dropdown-item" href="#">Flax Seed Oil</a></li>
 
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Omega & Fish Oil</a></li>
-                                <li><a class="dropdown-item" href="#">Fish Oil
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">Cod Liver Oil</a></li>
-                                <li><a class="dropdown-item" href="#">Flax Seed Oil</a></li>
-
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Specialty Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Pre and Probiotics
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">Glucosamine</a></li>
-                                <li><a class="dropdown-item" href="#">Collagen</a></li>
-                                <li><a class="dropdown-item" href="#">Antioxidants</a></li>
-                                <li><a class="dropdown-item" href="#">Blatin</a></li>
-                            </ul>
-                        </div>
-                        <div class="a4">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Supplements by category</a></li>
-                                <li><a class="dropdown-item" href="#">Kid</a></li>
-                                <li><a class="dropdown-item" href="#">Adult 50+</a></li>
-                                <li><a class="dropdown-item" href="#">Vegetarian</a></li>
-                                <li><a class="dropdown-item" href="#">Sports</a></li>
-                                <li><a class="dropdown-item" href="#">Women
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">Men</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Supplements by concern</a></li>
-                                <li><a class="dropdown-item" href="#">
-                                        Weight Management
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">Daily Wellnes's</a></li>
-                                <li><a class="dropdown-item" href="#">Energy
-                                    </a></li>
-                                <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
-                                <li><a class="dropdown-item" href="#">Hair, skin & nails</a></li>
-                                <li><a class="dropdown-item" href="#">Sleep</a></li>
-                                <li><a class="dropdown-item" href="#">Bone & Joint</a></li>
-                            </ul>
-                        </div>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Specialty Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Pre and Probiotics
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Glucosamine</a></li>
+                            <li><a class="dropdown-item" href="#">Collagen</a></li>
+                            <li><a class="dropdown-item" href="#">Antioxidants</a></li>
+                            <li><a class="dropdown-item" href="#">Blatin</a></li>
+                        </ul>
+                    </div>
+                    <div class="a4">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Supplements by category</a></li>
+                            <li><a class="dropdown-item" href="#">Kid</a></li>
+                            <li><a class="dropdown-item" href="#">Adult 50+</a></li>
+                            <li><a class="dropdown-item" href="#">Vegetarian</a></li>
+                            <li><a class="dropdown-item" href="#">Sports</a></li>
+                            <li><a class="dropdown-item" href="#">Women
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Men</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Supplements by concern</a></li>
+                            <li><a class="dropdown-item" href="#">
+                                    Weight Management
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Daily Wellnes's</a></li>
+                            <li><a class="dropdown-item" href="#">Energy
+                                </a></li>
+                            <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
+                            <li><a class="dropdown-item" href="#">Hair, skin & nails</a></li>
+                            <li><a class="dropdown-item" href="#">Sleep</a></li>
+                            <li><a class="dropdown-item" href="#">Bone & Joint</a></li>
+                        </ul>
                     </div>
                 </div>
-            </div>
-
-
-
-
-            <div class="dropdown item3">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Personal Care
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Sexual Wellnes</a></li>
-                                <li><a class="dropdown-item" href="#">Condoms</a></li>
-                                <li><a class="dropdown-item" href="#">Lubricants & Massage Gels</a></li>
-                                <li><a class="dropdown-item" href="#">Personal body massagers</a></li>
-                                <li><a class="dropdown-item" href="#">Men Performance Enhancers</a></li>
-                                <li><a class="dropdown-item" href="#">Sexual Health Supplements</a></li>
-
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Skin Care</a></li>
-                                <li><a class="dropdown-item" href="#">Body Lotions</a></li>
-                                <li><a class="dropdown-item" href="#">Mosquito Repellents</a></li>
-                                <li><a class="dropdown-item" href="#">Lip Balm</a></li>
-                                <li><a class="dropdown-item" href="#">Acne care</a></li>
-                                <li><a class="dropdown-item" href="#">Bath Essential</a></li>
-                                <li><a class="dropdown-item" href="#">Sanitizers & HandWash</a></li>
-                                <li><a class="dropdown-item" href="#">Sunscreen</a></li>
-                                <li><a class="dropdown-item" href="#">Cetaphil</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Baby care</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Food</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Diapers</a></li>
-                                <li><a class="dropdown-item" href="#">Nursing</a></li>
-                                <li><a class="dropdown-item" href="#">Feeding</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Bath Essential</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Skin Care</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Healthcare</a></li>
-                                <li><a class="dropdown-item" href="#">Baby Oral Health</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Hair Care</a></li>
-                                <li><a class="dropdown-item" href="#">Shampoo</a></li>
-                                <li><a class="dropdown-item" href="#">Hair Conditioners</a></li>
-                                <li><a class="dropdown-item" href="#">Hair Growth Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Hair Oils</a></li>
-                                <li><a class="dropdown-item" href="#">Hair Growth Products</a></li>
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Elderly Care</a></li>
-                                <li><a class="dropdown-item" href="#">Adult Diapers</a></li>
-                                <li><a class="dropdown-item" href="#">Bone & Joint Health</a></li>
-                                <li><a class="dropdown-item" href="#">Orthopaedic Supports</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Women care</a></li>
-                                <li><a class="dropdown-item" href="#">Feminine Hygiene</a></li>
-                                <li><a class="dropdown-item" href="#">Women care</a></li>
-                                <li><a class="dropdown-item" href="#">Mother Care</a></li>
-                                <li><a class="dropdown-item" href="#">Menopause</a></li>
-                                <li><a class="dropdown-item" href="#">Polycystic Ovary Syndrome</a></li>
-                            </ul>
-
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Men Care</a></li>
-                                <li><a class="dropdown-item" href="#">Men Groooming</a></li>
-                            </ul>
-                        </div>
-                        <div class="a4">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Oral Care</a></li>
-                                <li><a class="dropdown-item" href="#">Toothbrush</a></li>
-                                <li><a class="dropdown-item" href="#">Toothpaste</a></li>
-                                <li><a class="dropdown-item" href="#">Mouthwash</a></li>
-                                <li><a class="dropdown-item" href="#">Oral Care Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Tooth Powder</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Pet care</a></li>
-                                <li><a class="dropdown-item" href="#">Pet Groooming</a></li>
-                                <li><a class="dropdown-item" href="#">pet Food</a></li>
-                                <li><a class="dropdown-item" href="#">Pet Health Care</a></li>
-
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="dropdown item4">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Healthcare Devices
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Selling Categories</a></li>
-                                <li><a class="dropdown-item" href="#">BP Motors</a></li>
-                                <li><a class="dropdown-item" href="#">Nebulizers</a></li>
-                                <li><a class="dropdown-item" href="#">Smart Wearbles</a></li>
-                                <li><a class="dropdown-item" href="#">Weighing Scale</a></li>
-                                <li><a class="dropdown-item" href="#">Thermometer</a></li>
-                                <li><a class="dropdown-item" href="#">REsipratory Mask</a></li>
-                                <li><a class="dropdown-item" href="#">Pulse Oximeter</a></li>
-                                <li><a class="dropdown-item" href="#">Stethoscopes</a></li>
-                            </ul>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Diabetic Devices</a></li>
-                                <li><a class="dropdown-item" href="#">Blood Glucose Monitors</a></li>
-                                <li><a class="dropdown-item" href="#">Test Strips</a></li>
-                                <li><a class="dropdown-item" href="#">Syringers & Pens</a></li>
-                                <li><a class="dropdown-item" href="#">Continuous Glucose monitors</a></li>
-                                <li><a class="dropdown-item" href="#">Insulin coolers</a></li>
-                                <li><a class="dropdown-item" href="#">Diabetic Footwear</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Pain Management</a></li>
-                                <li><a class="dropdown-item" href="#">Electric heating pads</a></li>
-                                <li><a class="dropdown-item" href="#">Hot Water Bottles</a></li>
-                                <li><a class="dropdown-item" href="#">Hold COld PAck</a></li>
-                                <li><a class="dropdown-item" href="#">body massagers</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Wound Care & Dressing</a></li>
-                                <li><a class="dropdown-item" href="#">Adhesive Bandage</a></li>
-                                <li><a class="dropdown-item" href="#">Crepe Bandage</a></li>
-                                <li><a class="dropdown-item" href="#">Surgical Tapes></a></li>
-                            </ul>
-
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Support,Spints & Braces</a></li>
-                                <li><a class="dropdown-item" href="#">Knee Support</a></li>
-                                <li><a class="dropdown-item" href="#">Back Support</a></li>
-                                <li><a class="dropdown-item" href="#">Arm Support</a></li>
-                                <li><a class="dropdown-item" href="#">Ankle Support</a></li>
-                                <li><a class="dropdown-item" href="#">hand & Wrist</a></li>
-                                <li><a class="dropdown-item" href="#">Neck</a></li>
-                                <li><a class="dropdown-item" href="#">Shoulder</a></li>
-                                <li><a class="dropdown-item" href="#">Compression Support</a></li>
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Surgicals</a></li>
-                                <li><a class="dropdown-item" href="#">needles & Syringes</a></li>
-                                <li><a class="dropdown-item" href="#">Gloves</a></li>
-                                <li><a class="dropdown-item" href="#">Catheter</a></li>
-                                <li><a class="dropdown-item" href="#">Cannula</a></li>
-                                <li><a class="dropdown-item" href="#">Swab</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Mobility Aids</a></li>
-                                <li><a class="dropdown-item" href="#">Walking Sticks</a></li>
-                                <li><a class="dropdown-item" href="#">Walkers</a></li>
-                                <li><a class="dropdown-item" href="#">Wheelchair</a></li>
-                            </ul>
-
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Daily Living Aids</a></li>
-                                <li><a class="dropdown-item" href="#">Hearing Aid</a></li>
-                                <li><a class="dropdown-item" href="#">Commode Chair</a></li>
-                                <li><a class="dropdown-item" href="#">Bed pan</a></li>
-                                <li><a class="dropdown-item" href="#">Pill Box</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="dropdown item5">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Ayurveda Products
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Popular Categories</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Juice</a></li>
-                                <li><a class="dropdown-item" href="#">Unani Medicine</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
-
-                            </ul>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Ayurveda Personal Care</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Oral</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Baby</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Skin </a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Hair</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Best Selling Brands</a></li>
-                                <li><a class="dropdown-item" href="#">Dabur</a></li>
-                                <li><a class="dropdown-item" href="#">Aimil</a></li>
-                                <li><a class="dropdown-item" href="#">Dhoothpapeshwar</a></li>
-                                <li><a class="dropdown-item" href="#">zandu</a></li>
-                                <li><a class="dropdown-item" href="#">Patanjali</a></li>
-                                <li><a class="dropdown-item" href="#">Himalaya</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Selling Herbs</a></li>
-                                <li><a class="dropdown-item" href="#">Ashwagandha</a></li>
-                                <li><a class="dropdown-item" href="#">Alovera</a></li>
-                                <li><a class="dropdown-item" href="#">Gioly</a></li>
-                                <li><a class="dropdown-item" href="#">Shilajith</a></li>
-                                <li><a class="dropdown-item" href="#">Brahmi</a></li>
-
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Health concern</a></li>
-                                <li><a class="dropdown-item" href="#">Cough</a></li>
-                                <li><a class="dropdown-item" href="#">cold </a></li>
-                                <li><a class="dropdown-item" href="#">fever</a></li>
-                                <li><a class="dropdown-item" href="#">sexual Illness</a></li>
-                                <li><a class="dropdown-item" href="#">Liver</a></li>
-                                <li><a class="dropdown-item" href="#">mind</a></li>
-                            </ul>
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="dropdown item6">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Diabetes
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Diabetes Monitoring Devices</a></li>
-                            </ul>
-
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Sugar Free</a></li>
-                            </ul>
-
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Diabetic Medicine</a></li>
-                                <li><a class="dropdown-item" href="#">Vitamin</a></li>
-                                <li><a class="dropdown-item" href="#">Homeopathy</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Diet</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Sugar Substitue</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-
-
-            </div>
-
-            <div class="dropdown item7">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Healthcare Condition
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Selling Categories</a></li>
-                                <li><a class="dropdown-item" href="#">BP Motors</a></li>
-                                <li><a class="dropdown-item" href="#">Nebulizers</a></li>
-                                <li><a class="dropdown-item" href="#">Smart Wearbles</a></li>
-                                <li><a class="dropdown-item" href="#">Weighing Scale</a></li>
-                                <li><a class="dropdown-item" href="#">Thermometer</a></li>
-                                <li><a class="dropdown-item" href="#">REsipratory Mask</a></li>
-                                <li><a class="dropdown-item" href="#">Pulse Oximeter</a></li>
-                                <li><a class="dropdown-item" href="#">Stethoscopes</a></li>
-                            </ul>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Diabetic Devices</a></li>
-                                <li><a class="dropdown-item" href="#">Blood Glucose Monitors</a></li>
-                                <li><a class="dropdown-item" href="#">Test Strips</a></li>
-                                <li><a class="dropdown-item" href="#">Syringers & Pens</a></li>
-                                <li><a class="dropdown-item" href="#">Continuous Glucose monitors</a></li>
-                                <li><a class="dropdown-item" href="#">Insulin coolers</a></li>
-                                <li><a class="dropdown-item" href="#">Diabetic Footwear</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Pain Management</a></li>
-                                <li><a class="dropdown-item" href="#">Electric heating pads</a></li>
-                                <li><a class="dropdown-item" href="#">Hot Water Bottles</a></li>
-                                <li><a class="dropdown-item" href="#">Hold COld PAck</a></li>
-                                <li><a class="dropdown-item" href="#">body massagers</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Wound Care & Dressing</a></li>
-                                <li><a class="dropdown-item" href="#">Adhesive Bandage</a></li>
-                                <li><a class="dropdown-item" href="#">Crepe Bandage</a></li>
-                                <li><a class="dropdown-item" href="#">Surgical Tapes></a></li>
-                            </ul>
-
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Support,Spints & Braces</a></li>
-                                <li><a class="dropdown-item" href="#">Knee Support</a></li>
-                                <li><a class="dropdown-item" href="#">Back Support</a></li>
-                                <li><a class="dropdown-item" href="#">Arm Support</a></li>
-                                <li><a class="dropdown-item" href="#">Ankle Support</a></li>
-                                <li><a class="dropdown-item" href="#">hand & Wrist</a></li>
-                                <li><a class="dropdown-item" href="#">Neck</a></li>
-                                <li><a class="dropdown-item" href="#">Shoulder</a></li>
-                                <li><a class="dropdown-item" href="#">Compression Support</a></li>
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Surgicals</a></li>
-                                <li><a class="dropdown-item" href="#">needles & Syringes</a></li>
-                                <li><a class="dropdown-item" href="#">Gloves</a></li>
-                                <li><a class="dropdown-item" href="#">Catheter</a></li>
-                                <li><a class="dropdown-item" href="#">Cannula</a></li>
-                                <li><a class="dropdown-item" href="#">Swab</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Mobility Aids</a></li>
-                                <li><a class="dropdown-item" href="#">Walking Sticks</a></li>
-                                <li><a class="dropdown-item" href="#">Walkers</a></li>
-                                <li><a class="dropdown-item" href="#">Wheelchair</a></li>
-                            </ul>
-
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Daily Living Aids</a></li>
-                                <li><a class="dropdown-item" href="#">Hearing Aid</a></li>
-                                <li><a class="dropdown-item" href="#">Commode Chair</a></li>
-                                <li><a class="dropdown-item" href="#">Bed pan</a></li>
-                                <li><a class="dropdown-item" href="#">Pill Box</a></li>
-                            </ul>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="dropdown item8">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Homeopathy
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Popular Categories</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Juice</a></li>
-                                <li><a class="dropdown-item" href="#">Unani Medicine</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
-
-                            </ul>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Ayurveda Personal Care</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Oral</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Baby</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Skin </a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Hair</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Best Selling Brands</a></li>
-                                <li><a class="dropdown-item" href="#">Dabur</a></li>
-                                <li><a class="dropdown-item" href="#">Aimil</a></li>
-                                <li><a class="dropdown-item" href="#">Dhoothpapeshwar</a></li>
-                                <li><a class="dropdown-item" href="#">zandu</a></li>
-                                <li><a class="dropdown-item" href="#">Patanjali</a></li>
-                                <li><a class="dropdown-item" href="#">Himalaya</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Selling Herbs</a></li>
-                                <li><a class="dropdown-item" href="#">Ashwagandha</a></li>
-                                <li><a class="dropdown-item" href="#">Alovera</a></li>
-                                <li><a class="dropdown-item" href="#">Gioly</a></li>
-                                <li><a class="dropdown-item" href="#">Shilajith</a></li>
-                                <li><a class="dropdown-item" href="#">Brahmi</a></li>
-
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Health concern</a></li>
-                                <li><a class="dropdown-item" href="#">Cough</a></li>
-                                <li><a class="dropdown-item" href="#">cold </a></li>
-                                <li><a class="dropdown-item" href="#">fever</a></li>
-                                <li><a class="dropdown-item" href="#">sexual Illness</a></li>
-                                <li><a class="dropdown-item" href="#">Liver</a></li>
-                                <li><a class="dropdown-item" href="#">mind</a></li>
-                            </ul>
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="dropdown item9">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Featured
-                </a>
-                <div class="dropdown-menu">
-                    <div class="flex">
-                        <div class="a1">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Popular Categories</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Juice</a></li>
-                                <li><a class="dropdown-item" href="#">Unani Medicine</a></li>
-                                <li><a class="dropdown-item" href="#">Herbal Supplements</a></li>
-                                <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
-
-                            </ul>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Ayurveda Personal Care</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Oral</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Baby</a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Skin </a></li>
-                                <li><a class="dropdown-item" href="#">Ayurveda Hair</a></li>
-                            </ul>
-                        </div>
-                        <div class="a2">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Best Selling Brands</a></li>
-                                <li><a class="dropdown-item" href="#">Dabur</a></li>
-                                <li><a class="dropdown-item" href="#">Aimil</a></li>
-                                <li><a class="dropdown-item" href="#">Dhoothpapeshwar</a></li>
-                                <li><a class="dropdown-item" href="#">zandu</a></li>
-                                <li><a class="dropdown-item" href="#">Patanjali</a></li>
-                                <li><a class="dropdown-item" href="#">Himalaya</a></li>
-                            </ul>
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Selling Herbs</a></li>
-                                <li><a class="dropdown-item" href="#">Ashwagandha</a></li>
-                                <li><a class="dropdown-item" href="#">Alovera</a></li>
-                                <li><a class="dropdown-item" href="#">Gioly</a></li>
-                                <li><a class="dropdown-item" href="#">Shilajith</a></li>
-                                <li><a class="dropdown-item" href="#">Brahmi</a></li>
-
-                            </ul>
-                        </div>
-                        <div class="a3">
-                            <ul>
-                                <li><a class="dropdown-item" href="#">Top Health concern</a></li>
-                                <li><a class="dropdown-item" href="#">Cough</a></li>
-                                <li><a class="dropdown-item" href="#">cold </a></li>
-                                <li><a class="dropdown-item" href="#">fever</a></li>
-                                <li><a class="dropdown-item" href="#">sexual Illness</a></li>
-                                <li><a class="dropdown-item" href="#">Liver</a></li>
-                                <li><a class="dropdown-item" href="#">mind</a></li>
-                            </ul>
-
-
-
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-
-
-            <div class="dropdown item1">
-                <a class="btn btn-secondary dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Health Import
-                </a>
-                <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">All Diseases</a></li>
-                    <li><a class="dropdown-item" href="#">All Medicine </a></li>
-                    <li><a class="dropdown-item" href="#">Medicines by Therapeutic Class</a></li>
-
-                </ul>
             </div>
         </div>
 
 
-        <div class="navbar4">
-            <h3>Tata 1mg: India’s Leading Online Pharmacy & Healthcare Platform</h3>
-        </div>
-            
-        <div class="form_box">
-            <h2>Login</h2>
-            <form id="form">
-               
-                <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-                  
-                </div>
-                <div class="mb-3">
-                  <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="password">
-                </div>
 
-                <div class="mb-3 form-check">
-                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                </div>
 
-                <button type="submit" class="btn btn-primary">Submit</button>
-              </form>
+        <div class="dropdown item3">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Personal Care
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="products.html">Sexual Wellnes</a></li>
+                            <li><a class="dropdown-item" href="products.html">Condoms</a></li>
+                            <li><a class="dropdown-item" href="products.html">Lubricants & Massage Gels</a></li>
+                            <li><a class="dropdown-item" href="products.html">Personal body massagers</a></li>
+                            <li><a class="dropdown-item" href="products.html">Men Performance Enhancers</a></li>
+                            <li><a class="dropdown-item" href="products.html">Sexual Health Supplements</a></li>
 
-              <br><br>
-
-              <h2>Don't Have Account</h2>
-            <button type="button" class="btn btn-secondary"><a style="color: white;" href="Sign.html">SignUp</a></button>
-            <p id="signedup"></p>
-        </div>
-    
-
-        <footer class="full-footer p-md-3">
-            <div class="container top-footer">
-                <div class="row">
-                    <div class="col-md-2">
-                        <h3>Know Us</h3>
-                        <a href="#">About Us</a><br>
-                        <a href="#">Contact Us</a><br>
-                        <a href="#">Press Coverage</a><br>
-                        <a href="#">Careers</a><br>
-                        <a href="#">Business Partnership</a><br>
-                        <a href="#">Become a Health Partner</a><br>
-                        <a href="#">Corporate Goverance</a><br>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="products.html">Skin Care</a></li>
+                            <li><a class="dropdown-item" href="products.html">Body Lotions</a></li>
+                            <li><a class="dropdown-item" href="products.html">Mosquito Repellents</a></li>
+                            <li><a class="dropdown-item" href="#">Lip Balm</a></li>
+                            <li><a class="dropdown-item" href="#">Acne care</a></li>
+                            <li><a class="dropdown-item" href="#">Bath Essential</a></li>
+                            <li><a class="dropdown-item" href="#">Sanitizers & HandWash</a></li>
+                            <li><a class="dropdown-item" href="#">Sunscreen</a></li>
+                            <li><a class="dropdown-item" href="#">Cetaphil</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h3>Our Policies</h3>
-                        <a href="#">Privacy Policy</a><br>
-                        <a href="#">Terms and Conditions</a><br>
-                        <a href="#">Editorial Policy</a><br>
-                        <a href="#">Return Policy</a><br>
-                        <a href="#">IP Policy</a><br>
-                        <a href="#">Grievance Redressal Policy</a><br>
-                        <a href="#">Fake Jobs</a><br>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Baby care</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Food</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Diapers</a></li>
+                            <li><a class="dropdown-item" href="#">Nursing</a></li>
+                            <li><a class="dropdown-item" href="#">Feeding</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Bath Essential</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Skin Care</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Healthcare</a></li>
+                            <li><a class="dropdown-item" href="#">Baby Oral Health</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Hair Care</a></li>
+                            <li><a class="dropdown-item" href="#">Shampoo</a></li>
+                            <li><a class="dropdown-item" href="#">Hair Conditioners</a></li>
+                            <li><a class="dropdown-item" href="#">Hair Growth Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Hair Oils</a></li>
+                            <li><a class="dropdown-item" href="#">Hair Growth Products</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-2">
-                        <h3>Our Policies</h3>
-                        <a href="#">Privacy Policy</a><br>
-                        <a href="#">Terms and Conditions</a><br>
-                        <a href="#">Editorial Policy</a><br>
-                        <a href="#">Return Policy</a><br>
-                        <a href="#">IP Policy</a><br>
-                        <a href="#">Grievance Redressal Policy</a><br>
-                        <a href="#">Fake Jobs</a><br>
-                    </div>
-                    <div class="col-md-2">
-                        <h3>Legal</h3>
-                        <a href="#">Cookies Policy</a><br>
-                        <a href="#">Terms of Service</a><br>
-                        <a href="#">Law of Enforcement</a><br>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Elderly Care</a></li>
+                            <li><a class="dropdown-item" href="#">Adult Diapers</a></li>
+                            <li><a class="dropdown-item" href="#">Bone & Joint Health</a></li>
+                            <li><a class="dropdown-item" href="#">Orthopaedic Supports</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Women care</a></li>
+                            <li><a class="dropdown-item" href="#">Feminine Hygiene</a></li>
+                            <li><a class="dropdown-item" href="#">Women care</a></li>
+                            <li><a class="dropdown-item" href="#">Mother Care</a></li>
+                            <li><a class="dropdown-item" href="#">Menopause</a></li>
+                            <li><a class="dropdown-item" href="#">Polycystic Ovary Syndrome</a></li>
+                        </ul>
 
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Men Care</a></li>
+                            <li><a class="dropdown-item" href="#">Men Groooming</a></li>
+                        </ul>
                     </div>
-                    <div class="col-md-2 connecticons">
-                        <h3>Connect</h3>
-                        <a href="#">Social Links</a><br>
-                        <i class="bi bi-twitter"></i>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-youtube"></i>
-                        <i class="bi bi-linkedin"></i>
-                    </div>
-                    <div class="col-md-2 appimg">
-                        <h3>Download App</h3>
-                        <a href="#"><img class="img-fluid"
-                                src="https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg"
-                                alt="no img"></a><br>
-                        <a href="#"><img class="img-fluid"
-                                src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg"
-                                alt=""></a><br>
+                    <div class="a4">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Oral Care</a></li>
+                            <li><a class="dropdown-item" href="#">Toothbrush</a></li>
+                            <li><a class="dropdown-item" href="#">Toothpaste</a></li>
+                            <li><a class="dropdown-item" href="#">Mouthwash</a></li>
+                            <li><a class="dropdown-item" href="#">Oral Care Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Tooth Powder</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Pet care</a></li>
+                            <li><a class="dropdown-item" href="#">Pet Groooming</a></li>
+                            <li><a class="dropdown-item" href="#">pet Food</a></li>
+                            <li><a class="dropdown-item" href="#">Pet Health Care</a></li>
+
+                        </ul>
                     </div>
                 </div>
             </div>
+        </div>
+
+
+
+
+        <div class="dropdown item4">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Healthcare Devices
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Selling Categories</a></li>
+                            <li><a class="dropdown-item" href="#">BP Motors</a></li>
+                            <li><a class="dropdown-item" href="#">Nebulizers</a></li>
+                            <li><a class="dropdown-item" href="#">Smart Wearbles</a></li>
+                            <li><a class="dropdown-item" href="#">Weighing Scale</a></li>
+                            <li><a class="dropdown-item" href="#">Thermometer</a></li>
+                            <li><a class="dropdown-item" href="#">REsipratory Mask</a></li>
+                            <li><a class="dropdown-item" href="#">Pulse Oximeter</a></li>
+                            <li><a class="dropdown-item" href="#">Stethoscopes</a></li>
+                        </ul>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Diabetic Devices</a></li>
+                            <li><a class="dropdown-item" href="#">Blood Glucose Monitors</a></li>
+                            <li><a class="dropdown-item" href="#">Test Strips</a></li>
+                            <li><a class="dropdown-item" href="#">Syringers & Pens</a></li>
+                            <li><a class="dropdown-item" href="#">Continuous Glucose monitors</a></li>
+                            <li><a class="dropdown-item" href="#">Insulin coolers</a></li>
+                            <li><a class="dropdown-item" href="#">Diabetic Footwear</a></li>
+                        </ul>
+                    </div>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Pain Management</a></li>
+                            <li><a class="dropdown-item" href="#">Electric heating pads</a></li>
+                            <li><a class="dropdown-item" href="#">Hot Water Bottles</a></li>
+                            <li><a class="dropdown-item" href="#">Hold COld PAck</a></li>
+                            <li><a class="dropdown-item" href="#">body massagers</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Wound Care & Dressing</a></li>
+                            <li><a class="dropdown-item" href="#">Adhesive Bandage</a></li>
+                            <li><a class="dropdown-item" href="#">Crepe Bandage</a></li>
+                            <li><a class="dropdown-item" href="#">Surgical Tapes></a></li>
+                        </ul>
+
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Support,Spints & Braces</a></li>
+                            <li><a class="dropdown-item" href="#">Knee Support</a></li>
+                            <li><a class="dropdown-item" href="#">Back Support</a></li>
+                            <li><a class="dropdown-item" href="#">Arm Support</a></li>
+                            <li><a class="dropdown-item" href="#">Ankle Support</a></li>
+                            <li><a class="dropdown-item" href="#">hand & Wrist</a></li>
+                            <li><a class="dropdown-item" href="#">Neck</a></li>
+                            <li><a class="dropdown-item" href="#">Shoulder</a></li>
+                            <li><a class="dropdown-item" href="#">Compression Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Surgicals</a></li>
+                            <li><a class="dropdown-item" href="#">needles & Syringes</a></li>
+                            <li><a class="dropdown-item" href="#">Gloves</a></li>
+                            <li><a class="dropdown-item" href="#">Catheter</a></li>
+                            <li><a class="dropdown-item" href="#">Cannula</a></li>
+                            <li><a class="dropdown-item" href="#">Swab</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Mobility Aids</a></li>
+                            <li><a class="dropdown-item" href="#">Walking Sticks</a></li>
+                            <li><a class="dropdown-item" href="#">Walkers</a></li>
+                            <li><a class="dropdown-item" href="#">Wheelchair</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Daily Living Aids</a></li>
+                            <li><a class="dropdown-item" href="#">Hearing Aid</a></li>
+                            <li><a class="dropdown-item" href="#">Commode Chair</a></li>
+                            <li><a class="dropdown-item" href="#">Bed pan</a></li>
+                            <li><a class="dropdown-item" href="#">Pill Box</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="dropdown item5">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Ayurveda Products
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Popular Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Herbal Juice</a></li>
+                            <li><a class="dropdown-item" href="#">Unani Medicine</a></li>
+                            <li><a class="dropdown-item" href="#">Herbal Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
+
+                        </ul>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Ayurveda Personal Care</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Oral</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Baby</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Skin </a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Hair</a></li>
+                        </ul>
+                    </div>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Best Selling Brands</a></li>
+                            <li><a class="dropdown-item" href="#">Dabur</a></li>
+                            <li><a class="dropdown-item" href="#">Aimil</a></li>
+                            <li><a class="dropdown-item" href="#">Dhoothpapeshwar</a></li>
+                            <li><a class="dropdown-item" href="#">zandu</a></li>
+                            <li><a class="dropdown-item" href="#">Patanjali</a></li>
+                            <li><a class="dropdown-item" href="#">Himalaya</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Selling Herbs</a></li>
+                            <li><a class="dropdown-item" href="#">Ashwagandha</a></li>
+                            <li><a class="dropdown-item" href="#">Alovera</a></li>
+                            <li><a class="dropdown-item" href="#">Gioly</a></li>
+                            <li><a class="dropdown-item" href="#">Shilajith</a></li>
+                            <li><a class="dropdown-item" href="#">Brahmi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Health concern</a></li>
+                            <li><a class="dropdown-item" href="#">Cough</a></li>
+                            <li><a class="dropdown-item" href="#">cold </a></li>
+                            <li><a class="dropdown-item" href="#">fever</a></li>
+                            <li><a class="dropdown-item" href="#">sexual Illness</a></li>
+                            <li><a class="dropdown-item" href="#">Liver</a></li>
+                            <li><a class="dropdown-item" href="#">mind</a></li>
+                        </ul>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="dropdown item6">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Diabetes
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Diabetes Monitoring Devices</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Sugar Free</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Diabetic Medicine</a></li>
+                            <li><a class="dropdown-item" href="#">Vitamin</a></li>
+                            <li><a class="dropdown-item" href="#">Homeopathy</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Diet</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Sugar Substitue</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <div class="dropdown item7">
+            <a class="btn  dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Healthcare Condition
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Selling Categories</a></li>
+                            <li><a class="dropdown-item" href="#">BP Motors</a></li>
+                            <li><a class="dropdown-item" href="#">Nebulizers</a></li>
+                            <li><a class="dropdown-item" href="#">Smart Wearbles</a></li>
+                            <li><a class="dropdown-item" href="#">Weighing Scale</a></li>
+                            <li><a class="dropdown-item" href="#">Thermometer</a></li>
+                            <li><a class="dropdown-item" href="#">REsipratory Mask</a></li>
+                            <li><a class="dropdown-item" href="#">Pulse Oximeter</a></li>
+                            <li><a class="dropdown-item" href="#">Stethoscopes</a></li>
+                        </ul>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Diabetic Devices</a></li>
+                            <li><a class="dropdown-item" href="#">Blood Glucose Monitors</a></li>
+                            <li><a class="dropdown-item" href="#">Test Strips</a></li>
+                            <li><a class="dropdown-item" href="#">Syringers & Pens</a></li>
+                            <li><a class="dropdown-item" href="#">Continuous Glucose monitors</a></li>
+                            <li><a class="dropdown-item" href="#">Insulin coolers</a></li>
+                            <li><a class="dropdown-item" href="#">Diabetic Footwear</a></li>
+                        </ul>
+                    </div>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Pain Management</a></li>
+                            <li><a class="dropdown-item" href="#">Electric heating pads</a></li>
+                            <li><a class="dropdown-item" href="#">Hot Water Bottles</a></li>
+                            <li><a class="dropdown-item" href="#">Hold COld PAck</a></li>
+                            <li><a class="dropdown-item" href="#">body massagers</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Wound Care & Dressing</a></li>
+                            <li><a class="dropdown-item" href="#">Adhesive Bandage</a></li>
+                            <li><a class="dropdown-item" href="#">Crepe Bandage</a></li>
+                            <li><a class="dropdown-item" href="#">Surgical Tapes></a></li>
+                        </ul>
+
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Support,Spints & Braces</a></li>
+                            <li><a class="dropdown-item" href="#">Knee Support</a></li>
+                            <li><a class="dropdown-item" href="#">Back Support</a></li>
+                            <li><a class="dropdown-item" href="#">Arm Support</a></li>
+                            <li><a class="dropdown-item" href="#">Ankle Support</a></li>
+                            <li><a class="dropdown-item" href="#">hand & Wrist</a></li>
+                            <li><a class="dropdown-item" href="#">Neck</a></li>
+                            <li><a class="dropdown-item" href="#">Shoulder</a></li>
+                            <li><a class="dropdown-item" href="#">Compression Support</a></li>
+                        </ul>
+                    </div>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Surgicals</a></li>
+                            <li><a class="dropdown-item" href="#">needles & Syringes</a></li>
+                            <li><a class="dropdown-item" href="#">Gloves</a></li>
+                            <li><a class="dropdown-item" href="#">Catheter</a></li>
+                            <li><a class="dropdown-item" href="#">Cannula</a></li>
+                            <li><a class="dropdown-item" href="#">Swab</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Mobility Aids</a></li>
+                            <li><a class="dropdown-item" href="#">Walking Sticks</a></li>
+                            <li><a class="dropdown-item" href="#">Walkers</a></li>
+                            <li><a class="dropdown-item" href="#">Wheelchair</a></li>
+                        </ul>
+
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Daily Living Aids</a></li>
+                            <li><a class="dropdown-item" href="#">Hearing Aid</a></li>
+                            <li><a class="dropdown-item" href="#">Commode Chair</a></li>
+                            <li><a class="dropdown-item" href="#">Bed pan</a></li>
+                            <li><a class="dropdown-item" href="#">Pill Box</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="dropdown item8">
+            <a class="btn dropdown-toggle btn1_col" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Homeopathy
+            </a>
+            <div class="dropdown-menu">
+                <div class="flex">
+                    <div class="a1">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Popular Categories</a></li>
+                            <li><a class="dropdown-item" href="#">Herbal Juice</a></li>
+                            <li><a class="dropdown-item" href="#">Unani Medicine</a></li>
+                            <li><a class="dropdown-item" href="#">Herbal Supplements</a></li>
+                            <li><a class="dropdown-item" href="#">Immunity Boosters</a></li>
+
+                        </ul>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Ayurveda Personal Care</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Oral</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Baby</a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Skin </a></li>
+                            <li><a class="dropdown-item" href="#">Ayurveda Hair</a></li>
+                        </ul>
+                    </div>
+                    <div class="a2">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Best Selling Brands</a></li>
+                            <li><a class="dropdown-item" href="#">Dabur</a></li>
+                            <li><a class="dropdown-item" href="#">Aimil</a></li>
+                            <li><a class="dropdown-item" href="#">Dhoothpapeshwar</a></li>
+                            <li><a class="dropdown-item" href="#">zandu</a></li>
+                            <li><a class="dropdown-item" href="#">Patanjali</a></li>
+                            <li><a class="dropdown-item" href="#">Himalaya</a></li>
+                        </ul>
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Selling Herbs</a></li>
+                            <li><a class="dropdown-item" href="#">Ashwagandha</a></li>
+                            <li><a class="dropdown-item" href="#">Alovera</a></li>
+                            <li><a class="dropdown-item" href="#">Gioly</a></li>
+                            <li><a class="dropdown-item" href="#">Shilajith</a></li>
+                            <li><a class="dropdown-item" href="#">Brahmi</a></li>
+
+                        </ul>
+                    </div>
+                    <div class="a3">
+                        <ul>
+                            <li><a class="dropdown-item" href="#">Top Health concern</a></li>
+                            <li><a class="dropdown-item" href="#">Cough</a></li>
+                            <li><a class="dropdown-item" href="#">cold </a></li>
+                            <li><a class="dropdown-item" href="#">fever</a></li>
+                            <li><a class="dropdown-item" href="#">sexual Illness</a></li>
+                            <li><a class="dropdown-item" href="#">Liver</a></li>
+                            <li><a class="dropdown-item" href="#">mind</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
+     <!-- navbar3 ends -->
+
+   
+    <div class="form_box">
+        <h2>Login</h2>
+        <form id="form">
+
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="password">
+            </div>
+
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+        <br><br>
+
+        <h2>Don't Have Account</h2>
+        <button type="button" class="btn btn-secondary"><a style="color: white;" href="Sign.html">SignUp</a></button>
+        <p id="signedup"></p>
+    </div>
+
+
+    <footer class="full-footer p-md-3">
+        <div class="container top-footer">
+            <div class="row">
+                <div class="col-md-2">
+                    <h3>Know Us</h3>
+                    <a href="#">About Us</a><br>
+                    <a href="#">Contact Us</a><br>
+                    <a href="#">Press Coverage</a><br>
+                    <a href="#">Careers</a><br>
+                    <a href="#">Business Partnership</a><br>
+                    <a href="#">Become a Health Partner</a><br>
+                    <a href="#">Corporate Goverance</a><br>
+                </div>
+                <div class="col-md-2">
+                    <h3>Our Policies</h3>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Terms and Conditions</a><br>
+                    <a href="#">Editorial Policy</a><br>
+                    <a href="#">Return Policy</a><br>
+                    <a href="#">IP Policy</a><br>
+                    <a href="#">Grievance Redressal Policy</a><br>
+                    <a href="#">Fake Jobs</a><br>
+                </div>
+                <div class="col-md-2">
+                    <h3>Our Policies</h3>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Terms and Conditions</a><br>
+                    <a href="#">Editorial Policy</a><br>
+                    <a href="#">Return Policy</a><br>
+                    <a href="#">IP Policy</a><br>
+                    <a href="#">Grievance Redressal Policy</a><br>
+                    <a href="#">Fake Jobs</a><br>
+                </div>
+                <div class="col-md-2">
+                    <h3>Legal</h3>
+                    <a href="#">Cookies Policy</a><br>
+                    <a href="#">Terms of Service</a><br>
+                    <a href="#">Law of Enforcement</a><br>
+
+                </div>
+                <div class="col-md-2 connecticons">
+                    <h3>Connect</h3>
+                    <a href="#">Social Links</a><br>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-linkedin"></i>
+                </div>
+                <div class="col-md-2 appimg">
+                    <h3>Download App</h3>
+                    <a href="#"><img class="img-fluid"
+                            src="https://images.ctfassets.net/wtodlh47qxpt/em3mcMuAdXWlgucSJiTbS/d3ae7e51ed101d829e459355e255c47f/apple.svg"
+                            alt="no img"></a><br>
+                    <a href="#"><img class="img-fluid"
+                            src="https://images.ctfassets.net/wtodlh47qxpt/6BdZsyjLn64c06uCIE73d1/fb530f5d5231533b049463f6c7e8a2b1/google_play.svg"
+                            alt=""></a><br>
+                </div>
+            </div>
+        </div>
+        </div>
     </footer>
     <!-- footer ending -->
     <div class="bottom-footer">
@@ -874,4 +737,5 @@
     </div>
 </body>
 <script src="./script_login.js"></script>
+
 </html>
